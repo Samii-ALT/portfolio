@@ -1,0 +1,59 @@
+@media (max-width: 1400px) {
+
+    header {
+        padding: 3rem 8%;
+    }
+
+    section {
+        padding: 8rem 8%;
+    }
+
+    .home {
+        gap: 8rem;
+    }
+
+    .home-content h1 {
+        font-size: 7rem;
+    }
+
+    .home-content h3 {
+        font-size: 3.5rem;
+    }
+
+    .home-img img {
+        width: 30vw;
+    }
+
+    .about {
+        gap: 6rem;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .service-info {
+        padding: 3rem 2rem;
+    }
+
+    .service-info h4 {
+        font-size: 3.2rem;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}
